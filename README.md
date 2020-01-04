@@ -74,3 +74,7 @@ RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php/$1 [L]
+- Panggil setup untuk kali pertama dari Store->index().
+  - $this->product->setup()
+  - $this->category->setup()
+  - $this->cashier->setup()

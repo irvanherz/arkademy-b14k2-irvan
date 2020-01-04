@@ -1,0 +1,23 @@
+CREATE TABLE `product` (
+ `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+ `name` varchar(100) NOT NULL,
+ `price` int(11) unsigned NOT NULL,
+ `id_category` int(11) unsigned NOT NULL,
+ `id_cashier` int(11) unsigned NOT NULL,
+ PRIMARY KEY (`id`)
+)
+
+
+CREATE TABLE `category` (
+ `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+ `name` varchar(100) NOT NULL,
+ PRIMARY KEY (`id`)
+)
+
+
+CREATE TABLE `cashier` (
+ `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+ `name` varchar(100) NOT NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8
+
