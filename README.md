@@ -59,7 +59,8 @@ Parameter `a` adalah string yang ingin diperiksa dan `b` adalah karakter yang di
 
 ### Soal nomor 6
 Soal ini dikerjakan banyak dengan PHP dengan framework CodeIgniter 3.
-![Hasil pengerjaan soal nomor 6](/screenshot-6.png)
+![Hasil pengerjaan soal nomor 6](/screenshot-6a.png)
+![Hasil pengerjaan soal nomor 6](/screenshot-6b.png)
 Untuk menjalankannya hasil jadi untuk soal nomor 6 (6c), berikut langkat yang harus dilakukan.
 - Sebuah server dengan Apache (dengan mod_rewrite) PHP dan MySQL.
 - Ubah pengaturan `$config['base_url']` dengan yang sesuai.
